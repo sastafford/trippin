@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyspark = "~=3.3.0"
+
+[dev-packages]
+databricks-cli = "*"
+autopep8 = "*"
+pytest = "*"
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.5"
